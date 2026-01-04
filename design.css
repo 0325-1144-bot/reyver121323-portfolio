@@ -1,0 +1,106 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #0a0a0a;
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    padding: 45px 15px;
+    background: linear-gradient(90deg, #0051ff, #00aaff);
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+header p {
+    font-size: 1.4rem;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    background-color: #111;
+    padding: 12px;
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.tab-btn:hover,
+.tab-btn.active {
+    background-color: #0088ff;
+    border-radius: 6px;
+}
+
+/* CONTAINERS */
+.tab-content {
+    display: none;
+    width: 70%;
+    margin: 40px auto;
+    background-color: #111;
+    padding: 40px;
+    border-radius: 6px;
+    border-left: 6px solid #0088ff;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.tab-content h2 {
+    font-size: 2.2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+}
+
+ol li,
+ul li {
+    font-size: 1.3rem;
+    margin: 12px 0;
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+}
+
+.info-list li {
+    margin: 15px 0;
+    padding-left: 12px;
+    border-left: 4px solid #00aaff;
+}
+
+/* PROJECT CARDS */
+.project-card {
+    background-color: #1a1a1a;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 6px;
+    border-left: 6px solid #00aaff;
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #0d0d0d;
+    margin-top: 40px;
+    font-size: 1.1rem;
+    opacity: 0.8;
+}
